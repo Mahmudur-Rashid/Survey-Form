@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #fffefe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+}
+
+header {
+  text-shadow: 0 5px 3px rgba(95, 95, 95, 0.3);
+  text-transform: capitalize;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+header #description {
+  padding: 20px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#survey-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(3, 128, 59, 0.5);
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+
+.form-group {
+  margin-top: 30px;
+  color: white;
+  text-shadow: 0 1px 5px black;
+}
+
+.form-group h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 15px 0;
+}
+
+.form-group label {
+  font-size: 1.2em;
+}
+
+.userInfo label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.userInfo input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-style: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#dropdown {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-style: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.radio label,
+.checkbox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.radio input,
+.checkbox input {
+  margin: 0 10px;
+}
+
+.feedback textarea {
+  width: 100%;
+  border-style: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  background-color: green;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}

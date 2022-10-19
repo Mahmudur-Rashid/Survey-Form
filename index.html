@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div><h1 id="title">Lorem ipsum dolor sit amet</h1> </div>
+
+      <div 
+        ><p id="description"
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
+          similique?</p
+        >
+      </div>
+    </header>
+    <main>
+      <form action="" id="survey-form">
+        <!-- User Info -->
+        <div class="userInfo">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="number"  id="number-label"
+              >Age(optional)</label
+            >
+            <input type="number" id="number" placeholder="Age" min="1" max="99"/>
+          </div>
+        </div>
+
+        <!-- dropdown -->
+
+        <div class="form-group">
+          <div class="dropdownHeading"
+            ><h3>Lorem ipsum dolor sit amet.</h3></div
+          >
+          <select id="dropdown">
+            <option value="lorem">lorem</option>
+            <option value="ipsum">ipsum</option>
+            <option value="dolor">dolor</option>
+          </select>
+        </div>
+
+        <!-- Radio -->
+
+        <div class="form-group radio">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+
+          <label>
+            <input type="radio" name="radio" value="lorem" id="radio1" />
+            Lorem, ipsum.</label
+          >
+          <label>
+            <input type="radio" name="radio" value="ipsum" id="radio2" />
+            Lorem, ipsum.</label
+          >
+
+          <label>
+            <input type="radio" name="radio" value="dolor" id="radio3" />
+            Lorem, ipsum.</label
+          >
+        </div>
+
+        <!-- checkbox -->
+
+        <div class="form-group checkbox">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <label>
+            <input type="checkbox" name="checkbox" value="lorem" id="checkbox1" />Checkbox1
+          </label>
+          <label>
+            <input type="checkbox" name="checkbox" value="ipsum" id="checkbox2" />Checkbox2
+          </label>
+          <label>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="dolor" />Checkbox3
+          </label>
+        </div>
+
+        <!-- feedback -->
+
+        <div class="form-group feedback">
+          <h3>Your feedback</h3>
+          <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
